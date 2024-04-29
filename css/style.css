@@ -1,0 +1,21 @@
+:root{
+    --primary-color: #faedcd;
+    --secondary-color: #d4a373;
+    --tertiary-color: #fefae0; 
+    /* --text-color:  #CB8C4F; */
+    --text-color:  #4B2E12;
+}
+.navbar{
+    background-color: var(--primary-color);
+}
+.navbar a{
+    color: var(--text-color);
+    /* font-weight: 700; */
+}
+.navbar .nav-item a{
+    font-weight: 500;
+}
+.navbar .nav-item a i{
+    font-size: 20px;
+    font-weight: 500;
+}
