@@ -173,3 +173,11 @@
 #products .selling-img-description p{
     color: #9ACD32;
 }
+/* BLOG SECTION  */
+
+.blog-img{
+    width: 100%;
+}
+.blog-img img{
+    width: 100%;
+}
