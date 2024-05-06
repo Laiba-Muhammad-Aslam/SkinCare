@@ -181,3 +181,17 @@
 .blog-img img{
     width: 100%;
 }
+
+/* LOCATION  */
+#location{
+    border: 2px red;
+}
+#location .row iframe{
+    position: relative;
+}
+#location .location-description{
+    position: absolute;
+    background-color: var(--color3);
+    /* bottom: 0; */
+    /* margin: 22px; */
+}
