@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root{
     --primary-color: #faedcd;
     --secondary-color: #d4a373;
@@ -11,13 +13,17 @@
     --color4: #FFE5B4;
     --color5:  #D3D3D3;
 }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
 .navbar{
-    background-color: var(--primary-color);
-    /* background-color: var(--text-color); */
+    background-color: #FFB5A7;
 }
 .navbar a{
-    color: var(--text-color);
-    /* font-weight: 700; */
+    color: #ffffff;
 }
 .navbar .nav-item a{
     font-weight: 500;
@@ -94,15 +100,13 @@ ul{
 /* SERVICES SECTION  */
 
 #services{
-    background-color: #4B2E12;
+    background-color: #FFB5A7;
     color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid red; */
 }
 #services .col-md-4{
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,12 +121,6 @@ ul{
     border: 7px solid #ea4788eb;
 
 }
-#services h3{
-    /* text-align: start; */
-}
-#services .container{
-    /* border: 2px solid red; */
-}
 .product_description h4{
     font-size: 17px;
 }
@@ -134,15 +132,17 @@ ul{
 
 /* TREATMENT SECTION  */
 
-#treatment img{
+#treatment img, #spa img{
     width: 100%;
     background-position: center;
     border-radius: 0;
 }
-#treatment .icon img{
+#treatment .icon img, #spa .icon img{
     width: 70px;
     height: 70px;
 }
+
+/* TOP SELLING PRODUCTS */
 
 #products{
     text-align: center;
@@ -187,25 +187,28 @@ ul{
 
 /* LOCATION  */
 #location{
-    border: 2px red;
+    position: relative;
 }
 #location .row iframe{
     position: relative;
 }
 #location .location-description{
     position: absolute;
-    background-color: var(--color3);
-    /* bottom: 0; */
-    /* margin: 22px; */
+    background-color: #FFB5A7;
+    bottom: 10%;
 }
 
 /* FOOTER SECTION  */
 
 #footer{
-    background-color: #4B2E12;
+    background-color: #FFB5A7;
     color: #ffffff;
+    cursor: pointer;
 }
 #footer ul>li{
     margin-bottom: 3%;
-    color: #a7a1a1;
+    color: grey;
+}
+#footer i:hover{
+    color: grey;
 }
